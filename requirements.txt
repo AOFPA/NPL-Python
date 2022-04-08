@@ -1,0 +1,10 @@
+flask
+pandas
+matplotlib.pyplot
+numpy
+pythainlp.corpus.common
+pythainlp
+sklearn.model_selection
+sklearn.feature_extraction.text
+sklearn.linear_model
+sklearn.metrics
