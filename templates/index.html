@@ -67,7 +67,9 @@
 
 
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original-wordmark.svg" width="50px" />
-
+                <a href="https://github.com/AOFPA/python-npl-mini-project.git">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="50px" />
+                </a>
                 <!-- <p>Lorem ipsum dolor sit ame.</p> -->
                 <ul class="nav nav-pills flex-column mt-5">
                     <li class="nav-item">
@@ -91,7 +93,7 @@
                 <form action="{{ url_for('nlp') }}" method="post">
                     <div class="mb-3 mt-3">
                         <label for="comment">Comments:</label>
-                        <textarea class="form-control" rows="5" id="message" name="message"></textarea>
+                        <textarea class="form-control" rows="5" id="message" name="message">{{msg}}</textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>

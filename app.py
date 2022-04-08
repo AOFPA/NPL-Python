@@ -59,7 +59,7 @@ def nlp():
             my_bow = cvec.transform(pd.Series([my_tokens]))
             my_predictions = lr.predict(my_bow)
 
-            return render_template('index.html', predic = my_predictions[0])
+            return render_template('index.html', predic = my_predictions[0],msg = my_text[0])
 
 
 if __name__ == '__main__':
