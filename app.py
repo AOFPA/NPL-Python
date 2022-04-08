@@ -43,7 +43,7 @@ test_bow = cvec.transform(X_test['text_tokens'])
 
 
 #flask
-@app.route('/',method=['GET'])
+@app.route('/')
 def index():
     return render_template('index.html',predic="")
 
